@@ -418,4 +418,16 @@ class SmartRadiatorThermostatCommands(Commands):
         return ["Smart Radiator Thermostat"]
 
 
+class KeyPadCommands(Commands):
+    """Keypad commands."""
+
+    DELETE_KEY = "deleteKey"
+    CREATE_KEY = "createKey"
+
+    @classmethod
+    def get_supported_devices(cls) -> list[str]:
+        """Get supported devices."""
+        return ["Keypad", "Keypad Touch", "Keypad Vision", "Keypad Vision pro"]
+
+
 T = TypeVar("T", bound=CommonCommands)
