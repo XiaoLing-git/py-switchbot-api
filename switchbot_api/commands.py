@@ -190,13 +190,15 @@ class RGBWLightCommands(Commands):
 
     # Supported Device list:
     # Strip Light
+    # RGBIC Neon Rope Light
+    # RGBIC Neon Wire Rope Light
     SET_BRIGHTNESS = "setBrightness"
     SET_COLOR = "setColor"
 
     @classmethod
     def get_supported_devices(cls) -> list[str]:
         """Get supported devices."""
-        return ["Strip Light"]
+        return ["Strip Light", "RGBIC Neon Rope Light", "RGBIC Neon Wire Rope Light"]
 
 
 class RGBWWLightCommands(Commands):
@@ -206,6 +208,8 @@ class RGBWWLightCommands(Commands):
     # Floor Lamp
     # Strip Light 3
     # Color Bulb
+    # RGBICWW Floor Lamp
+    # RGBICWW Strip Light
     SET_BRIGHTNESS = "setBrightness"
     SET_COLOR = "setColor"
     SET_COLOR_TEMPERATURE = "setColorTemperature"
@@ -213,7 +217,27 @@ class RGBWWLightCommands(Commands):
     @classmethod
     def get_supported_devices(cls) -> list[str]:
         """Get supported devices."""
-        return ["Strip Light 3", "Floor Lamp", "Color Bulb"]
+        return [
+            "Strip Light 3",
+            "Floor Lamp",
+            "Color Bulb",
+            "RGBICWW Floor Lamp",
+            "RGBICWW Strip Light",
+        ]
+
+
+class CeilingLightCommands(Commands):
+    """Ceiling light commands."""
+
+    # 1-100
+    SET_BRIGHTNESS = "setBrightness"
+    # 2700-6500
+    SET_COLOR_TEMPERATURE = "setColorTemperature"
+
+    @classmethod
+    def get_supported_devices(cls) -> list[str]:
+        """Get supported devices."""
+        return ["Ceiling Light", "Ceiling Light Pro"]
 
 
 class DoorBellCommands(Commands):
@@ -283,20 +307,6 @@ class VacuumCleanerV3Commands(Commands):
     def get_supported_devices(cls) -> list[str]:
         """Get supported devices."""
         return ["Robot Vacuum Cleaner S10", "S20"]
-
-
-class CeilingLightCommands(Commands):
-    """Ceiling light commands."""
-
-    # 1-100
-    SET_BRIGHTNESS = "setBrightness"
-    # 2700-6500
-    SET_COLOR_TEMPERATURE = "setColorTemperature"
-
-    @classmethod
-    def get_supported_devices(cls) -> list[str]:
-        """Get supported devices."""
-        return ["Ceiling Light", "Ceiling Light Pro"]
 
 
 class BlindTiltCommands(Commands):
