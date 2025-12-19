@@ -240,6 +240,18 @@ class CeilingLightCommands(Commands):
         return ["Ceiling Light", "Ceiling Light Pro"]
 
 
+class ArtFrameCommands(Commands):
+    """AI Art Frame commands."""
+
+    PREVIOUS = "previous"
+    NEXT = "next"
+
+    @classmethod
+    def get_supported_devices(cls) -> list[str]:
+        """Get supported devices."""
+        return ["AI Art Frame"]
+
+
 class DoorBellCommands(Commands):
     """Door Bell commands."""
 
