@@ -68,3 +68,26 @@ class SmartRadiatorThermostatMode(Enum):
             cls.COMFORT,
             cls.FAST_HEATING,
         ]
+
+
+class BatteryLevel(Enum):
+    """Battery Level modes."""
+
+    High = "high"
+    Medium = "medium"
+    Low = "low"
+    Critical = "critical"
+    Unknown = "unknown"
+
+    @classmethod
+    def get_battery_level(cls, value: int) -> BatteryLevel:
+        """Return a battery level."""
+        if 100 >= value >= 60:
+            return cls.High
+        if 60 > value >= 20:
+            return cls.Medium
+        if 20 > value >= 10:
+            return cls.Low
+        if 10 > value >= 0:
+            return cls.Critical
+        return cls.Unknown
