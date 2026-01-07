@@ -95,6 +95,7 @@ class LockV2Commands(Commands):
         """Get supported devices."""
         return ["Smart Lock", "Smart Lock Pro", "Smart Lock Ultra", "Smart Lock Vision"]
 
+
 class LockV3Commands(Commands):
     """Lock commands."""
 
