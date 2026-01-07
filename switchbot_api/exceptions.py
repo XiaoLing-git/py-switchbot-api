@@ -15,3 +15,6 @@ class SwitchBotAuthenticationError(SwitchBotError):
 
 class SwitchBotDeviceOfflineError(SwitchBotError):
     """Device currently offline."""
+
+class SwitchBotDeviceRequestError(SwitchBotError):
+    """Device request error."""

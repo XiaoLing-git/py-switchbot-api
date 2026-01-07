@@ -46,11 +46,15 @@ from switchbot_api.commands import (
     VacuumCleanerV2Commands,
     VacuumCleanerV3Commands,
     VacuumCommands,
+    KeyPadCommands,
+    ArtFrameCommands,
+    LockV3Commands
 )
 from switchbot_api.exceptions import (
     SwitchBotAuthenticationError,
     SwitchBotConnectionError,
     SwitchBotDeviceOfflineError,
+    SwitchBotDeviceRequestError,
 )
 from switchbot_api.models import (
     BatteryCirculatorFanMode,
@@ -59,6 +63,7 @@ from switchbot_api.models import (
     VacuumCleanMode,
     VacuumFanSpeed,
     VacuumFanSpeedV2,
+    BatteryLevel
 )
 
 __all__ = [
@@ -101,6 +106,10 @@ __all__ = [
     "VacuumCommands",
     "VacuumFanSpeed",
     "VacuumFanSpeedV2",
+    "KeyPadCommands",
+    "ArtFrameCommands",
+    "LockV3Commands",
+    "BatteryLevel"
 ]
 
 _API_HOST = "https://api.switch-bot.com"
