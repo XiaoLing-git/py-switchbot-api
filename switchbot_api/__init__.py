@@ -18,6 +18,7 @@ from aiohttp.hdrs import METH_GET, METH_POST
 from switchbot_api.commands import (
     AirConditionerCommands,
     AirPurifierCommands,
+    ArtFrameCommands,
     BatteryCirculatorFanCommands,
     BlindTiltCommands,
     BotCommands,
@@ -30,9 +31,11 @@ from switchbot_api.commands import (
     FanCommands,
     HumidifierCommands,
     HumidifierV2Commands,
+    KeyPadCommands,
     LightCommands,
     LockCommands,
     LockV2Commands,
+    LockV3Commands,
     OthersCommands,
     RGBWLightCommands,
     RGBWWLightCommands,
@@ -46,31 +49,29 @@ from switchbot_api.commands import (
     VacuumCleanerV2Commands,
     VacuumCleanerV3Commands,
     VacuumCommands,
-    KeyPadCommands,
-    ArtFrameCommands,
-    LockV3Commands
 )
 from switchbot_api.exceptions import (
     SwitchBotAuthenticationError,
     SwitchBotConnectionError,
     SwitchBotDeviceOfflineError,
-    SwitchBotDeviceRequestError,
 )
 from switchbot_api.models import (
     BatteryCirculatorFanMode,
+    BatteryLevel,
     PowerState,
     SmartRadiatorThermostatMode,
     VacuumCleanMode,
     VacuumFanSpeed,
     VacuumFanSpeedV2,
-    BatteryLevel
 )
 
 __all__ = [
     "AirConditionerCommands",
     "AirPurifierCommands",
+    "ArtFrameCommands",
     "BatteryCirculatorFanCommands",
     "BatteryCirculatorFanMode",
+    "BatteryLevel",
     "BlindTiltCommands",
     "BotCommands",
     "CeilingLightCommands",
@@ -83,9 +84,11 @@ __all__ = [
     "FanCommands",
     "HumidifierCommands",
     "HumidifierV2Commands",
+    "KeyPadCommands",
     "LightCommands",
     "LockCommands",
     "LockV2Commands",
+    "LockV3Commands",
     "OthersCommands",
     "PowerState",
     "RGBWLightCommands",
@@ -106,10 +109,6 @@ __all__ = [
     "VacuumCommands",
     "VacuumFanSpeed",
     "VacuumFanSpeedV2",
-    "KeyPadCommands",
-    "ArtFrameCommands",
-    "LockV3Commands",
-    "BatteryLevel"
 ]
 
 _API_HOST = "https://api.switch-bot.com"
