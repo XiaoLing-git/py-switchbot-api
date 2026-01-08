@@ -444,4 +444,4 @@ class KeyPadCommands(Commands):
         return ["Keypad", "Keypad Touch", "Keypad Vision", "Keypad Vision pro"]
 
 
-T = TypeVar("T", bound=Commands)
+T = TypeVar("T", bound=CommonCommands)
