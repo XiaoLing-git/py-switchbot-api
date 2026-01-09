@@ -93,7 +93,21 @@ class LockV2Commands(Commands):
     @classmethod
     def get_supported_devices(cls) -> list[str]:
         """Get supported devices."""
-        return ["Smart Lock", "Smart Lock Pro", "Smart Lock Ultra"]
+        return ["Smart Lock", "Smart Lock Pro", "Smart Lock Ultra", "Smart Lock Vision"]
+
+
+class LockV3Commands(Commands):
+    """Lock commands."""
+
+    LOCK = "lock"
+    UNLOCK = "unlock"
+    DEADBOLT = "deadbolt"
+    NIGHT_LATCH_UNLOCK = "nightLatchUnlock"
+
+    @classmethod
+    def get_supported_devices(cls) -> list[str]:
+        """Get supported devices."""
+        return ["Smart Lock Vision Pro"]
 
 
 class HumidifierCommands(Commands):
