@@ -1,0 +1,36 @@
+switchbot_api/hub/commands.py
+  s_eb0fe53f618ee1::t_dd11a4b637c266 1-10
+switchbot_api/light/__init__.py
+  s_eb0fe53f618ee1::t_dd11a4b637c266 25,46
+switchbot_api/hub/models.py
+  h_9a9cdace680315 22
+  s_eb0fe53f618ee1::t_550a3123de2b72 25-33
+  s_eb0fe53f618ee1::t_dd11a4b637c266 1-21,23-24
+switchbot_api/hub/__init__.py
+  s_eb0fe53f618ee1::t_550a3123de2b72 8,11
+  s_eb0fe53f618ee1::t_dd11a4b637c266 2-7,9-10,12-18,20-23
+  h_9a9cdace680315 19
+switchbot_api/light/models.py
+  s_eb0fe53f618ee1::t_dd11a4b637c266 25-41
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "4d39eb4b44d4abe45582eb76b802a252dd322fd9",
+  "prompts": {},
+  "humans": {
+    "h_9a9cdace680315": {
+      "author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  },
+  "sessions": {
+    "s_eb0fe53f618ee1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ec62-9b0d-7030-950e-86dd131f3add",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  }
+}
