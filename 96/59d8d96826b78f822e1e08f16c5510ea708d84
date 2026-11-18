@@ -1,0 +1,56 @@
+switchbot_api/climate/__init__.py
+  s_eb0fe53f618ee1::t_20a4f5cb744745 23,30,32-33,35,58,66,68-69,71
+tests/test_additional_commands.py
+  s_eb0fe53f618ee1::t_4e18a1f77e331d 165-166,173-175,198-200,244-248,250-252,336-338,352-354
+  s_eb0fe53f618ee1::t_f1ac6ee9cee6b3 1-164,167-172,176-197,201-243,249,253-335,339-351,355-357
+switchbot_api/climate/utils.py
+  s_eb0fe53f618ee1::t_20a4f5cb744745 5-7,10,103-105,109-174
+  s_eb0fe53f618ee1::t_929d7e1f7236d7 106-108
+switchbot_api/fan/__init__.py
+  s_eb0fe53f618ee1::t_f1ac6ee9cee6b3 23,44
+switchbot_api/climate/models.py
+  s_eb0fe53f618ee1::t_1c33a2714b6915 84-91
+switchbot_api/curtain/commands.py
+  s_eb0fe53f618ee1::t_1c33a2714b6915 58
+switchbot_api/others/models.py
+  s_eb0fe53f618ee1::t_1c33a2714b6915 69-76
+switchbot_api/__init__.py
+  s_eb0fe53f618ee1::t_1c33a2714b6915 328,337
+switchbot_api/others/__init__.py
+  s_eb0fe53f618ee1::t_20a4f5cb744745 38,52,58,83,107,113
+switchbot_api/fan/commands.py
+  s_eb0fe53f618ee1::t_1c33a2714b6915 68-70
+switchbot_api/fan/utils.py
+  s_eb0fe53f618ee1::t_1c33a2714b6915 5-6,42-52
+switchbot_api/others/commands.py
+  s_eb0fe53f618ee1::t_1c33a2714b6915 22,27-28,32,37-38,47-48
+switchbot_api/others/utils.py
+  s_eb0fe53f618ee1::t_929d7e1f7236d7 140-142
+  s_eb0fe53f618ee1::t_20a4f5cb744745 13,129-139,143-155
+switchbot_api/light/commands.py
+  s_eb0fe53f618ee1::t_1c33a2714b6915 120,240-241,265-266
+  h_9a9cdace680315 119
+switchbot_api/climate/commands.py
+  s_eb0fe53f618ee1::t_1c33a2714b6915 29-30,42-47
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9659d8d96826b78f822e1e08f16c5510ea708d84",
+  "prompts": {},
+  "humans": {
+    "h_9a9cdace680315": {
+      "author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  },
+  "sessions": {
+    "s_eb0fe53f618ee1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ec62-9b0d-7030-950e-86dd131f3add",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  }
+}
