@@ -1,0 +1,54 @@
+switchbot_api/climate/models.py
+  s_eb0fe53f618ee1::t_baf73d9f6b6ceb 69,83
+switchbot_api/common/models.py
+  s_eb0fe53f618ee1::t_cfd1562b8e2f7b 65-67
+switchbot_api/light/utils.py
+  s_eb0fe53f618ee1::t_baf73d9f6b6ceb 32,64,104,106-107,115-118,142
+switchbot_api/vacuum/utils.py
+  s_eb0fe53f618ee1::t_baf73d9f6b6ceb 21,39,120-124,160-164
+switchbot_api/switch/utils.py
+  s_eb0fe53f618ee1::t_baf73d9f6b6ceb 28-32,53-55
+switchbot_api/climate/commands.py
+  s_eb0fe53f618ee1::t_baf73d9f6b6ceb 25
+switchbot_api/curtain/models.py
+  s_eb0fe53f618ee1::t_cfd1562b8e2f7b 11-13
+switchbot_api/fan/utils.py
+  s_eb0fe53f618ee1::t_cfd1562b8e2f7b 28,62-66,80-83,102-106
+switchbot_api/light/commands.py
+  s_eb0fe53f618ee1::t_baf73d9f6b6ceb 172
+switchbot_api/camera/utils.py
+  s_eb0fe53f618ee1::t_cfd1562b8e2f7b 15,17-20
+switchbot_api/lock/utils.py
+  s_eb0fe53f618ee1::t_baf73d9f6b6ceb 26-30,169-172
+switchbot_api/hub/models.py
+  s_eb0fe53f618ee1::t_cfd1562b8e2f7b 14-16,32
+switchbot_api/lock/models.py
+  s_eb0fe53f618ee1::t_baf73d9f6b6ceb 74
+switchbot_api/common/commands.py
+  s_eb0fe53f618ee1::t_cfd1562b8e2f7b 9-13
+switchbot_api/others/utils.py
+  s_eb0fe53f618ee1::t_baf73d9f6b6ceb 26-27,93-97,121-124
+switchbot_api/climate/utils.py
+  s_eb0fe53f618ee1::t_baf73d9f6b6ceb 32-33,82
+  s_eb0fe53f618ee1::t_cfd1562b8e2f7b 30-31,34,90-93
+switchbot_api/curtain/utils.py
+  s_eb0fe53f618ee1::t_cfd1562b8e2f7b 10-14,26-30,87-90
+switchbot_api/sensor/utils.py
+  s_eb0fe53f618ee1::t_baf73d9f6b6ceb 15-18,39-40
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "281a97a6b954a848bd9a1349535b1ce3bca2c78d",
+  "prompts": {},
+  "sessions": {
+    "s_eb0fe53f618ee1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ec62-9b0d-7030-950e-86dd131f3add",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  }
+}
