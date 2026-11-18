@@ -1,0 +1,33 @@
+switchbot_api/common/__init__.py
+  s_eb0fe53f618ee1::t_ff8a6804a73588 4,6
+switchbot_api/camera/__init__.py
+  s_eb0fe53f618ee1::t_ff8a6804a73588 2-30
+switchbot_api/common/models.py
+  s_eb0fe53f618ee1::t_ff8a6804a73588 8-18
+tests/test_camera.py
+  s_eb0fe53f618ee1::t_53daa0e35c4785 1-82,86-97
+  s_eb0fe53f618ee1::t_fc038b6e080c52 83-85
+switchbot_api/camera/models.py
+  s_eb0fe53f618ee1::t_ff8a6804a73588 1-39
+switchbot_api/camera/utils.py
+  s_eb0fe53f618ee1::t_ccf7a00d10f27b 11-13
+  s_eb0fe53f618ee1::t_ff8a6804a73588 1-10,14-31
+switchbot_api/camera/commands.py
+  s_eb0fe53f618ee1::t_ff8a6804a73588 1-23
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "93a3503aab5ff9b1d4ac8e9e5d8c0203af1b1851",
+  "prompts": {},
+  "sessions": {
+    "s_eb0fe53f618ee1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ec62-9b0d-7030-950e-86dd131f3add",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  }
+}
