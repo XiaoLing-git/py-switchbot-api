@@ -1,0 +1,60 @@
+switchbot_api/fan/commands.py
+  s_eb0fe53f618ee1::t_16f86ec0211226 9
+  s_eb0fe53f618ee1::t_27971445ef4629 1-8,10-67
+tests/test_fan.py
+  s_eb0fe53f618ee1::t_9c399eeed3f31f 42-44,65-67,70-71,98-99,104-105,110-111,116-117,122-123,129-130,135-136,141-142,147-152,169-175
+  s_eb0fe53f618ee1::t_aca53a86d355e6 165-167
+  s_eb0fe53f618ee1::t_4985178473ed2c 1-41,45-64,68-69,72-97,100-103,106-109,112-115,118-121,124-128,131-134,137-140,143-146,153-164,168
+switchbot_api/common/__init__.py
+  s_eb0fe53f618ee1::t_b7ff7fac101a7e 4-9
+  s_eb0fe53f618ee1::t_2d6672c920b642 11-17
+switchbot_api/climate/commands.py
+  s_eb0fe53f618ee1::t_16f86ec0211226 8
+  s_eb0fe53f618ee1::t_1fbb18ce63ee10 1-7,9-50
+switchbot_api/climate/utils.py
+  s_eb0fe53f618ee1::t_410b742488b2f7 90
+  s_eb0fe53f618ee1::t_2d6672c920b642 3-4,66,74
+  s_eb0fe53f618ee1::t_d1c19939f0bf29 1-2,5-32,35-44,47-65,67-73,75-89,91-98
+  s_eb0fe53f618ee1::t_e500f3042d7754 33-34,45-46
+switchbot_api/fan/utils.py
+  s_eb0fe53f618ee1::t_92d2c75e15c2f8 1-2,5-39
+  s_eb0fe53f618ee1::t_2d6672c920b642 3-4
+switchbot_api/climate/__init__.py
+  s_eb0fe53f618ee1::t_410b742488b2f7 22-25,50-55
+  s_eb0fe53f618ee1::t_f29066c75a27a5 1-21,26-49,56-67
+switchbot_api/common/models.py
+  s_eb0fe53f618ee1::t_b7ff7fac101a7e 8-21
+switchbot_api/fan/__init__.py
+  s_eb0fe53f618ee1::t_fb622d4540695e 1-15,20-29,34-45
+  s_eb0fe53f618ee1::t_410b742488b2f7 16-19,30-33
+switchbot_api/climate/models.py
+  s_eb0fe53f618ee1::t_f05beec9227ee8 1-92
+tests/test_climate.py
+  s_eb0fe53f618ee1::t_06caa15dd84286 159
+  s_eb0fe53f618ee1::t_aca53a86d355e6 1-46,56-79,82-115,119-157,162-171,175-181,186-201,203-206,210-229,235-238,241-243,249-252,255-258,261-264,267-270,273-276,282-298
+  s_eb0fe53f618ee1::t_9c399eeed3f31f 47-55,80-81,116-118,158,160-161,172-174,182-185,202,207-209,230-234,239-240,244-248,253-254,259-260,265-266,271-272,277-281,299-305
+switchbot_api/fan/models.py
+  s_eb0fe53f618ee1::t_6dbd4ce276da8c 1-50,52-59,61-63
+  h_9a9cdace680315 51,60
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "0fb3717efb3a276b6da704aff02ce6c09ec16a16",
+  "prompts": {},
+  "humans": {
+    "h_9a9cdace680315": {
+      "author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  },
+  "sessions": {
+    "s_eb0fe53f618ee1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ec62-9b0d-7030-950e-86dd131f3add",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  }
+}
