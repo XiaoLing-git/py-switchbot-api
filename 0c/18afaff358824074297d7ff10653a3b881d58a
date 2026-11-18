@@ -1,0 +1,47 @@
+switchbot_api/light/models.py
+  s_eb0fe53f618ee1::t_4427d4d920d03a 2,4-6,27-56,58-67,69-73
+  s_eb0fe53f618ee1::t_66484e5e57c50d 24-25
+  s_eb0fe53f618ee1::t_761a3fbe824882 1,3,7-23,26,57,68
+switchbot_api/light/__init__.py
+  s_eb0fe53f618ee1::t_8a03cfdaca8c08 2-19,37-39,54-71
+  s_eb0fe53f618ee1::t_761a3fbe824882 1,20-25,28-33,40-43
+  s_eb0fe53f618ee1::t_e12cf022b7038d 26-27,34-36,44-53
+tests/test_light.py
+  s_eb0fe53f618ee1::t_195459c2c72d5b 1-5,7-33,35-51,53-63,65-69,71-82,89-105,107-111,113-117,119-123,125-129,131-159,161-174,176-185
+  s_eb0fe53f618ee1::t_11aeef2c3d3e7d 52,64,70,83-88,106,112,118,124,130,160
+  s_eb0fe53f618ee1::t_2b7150eb8f15fb 6,34,175
+switchbot_api/common/__init__.py
+  h_9a9cdace680315 2-3
+  s_eb0fe53f618ee1::t_e0e1ff807defe1 4-6
+switchbot_api/light/commands.py
+  s_eb0fe53f618ee1::t_449f603266b9c1 1-3,5-100,102-107,110-135,137-154,156-205,207,209,212,214,216,218,220-260
+  s_eb0fe53f618ee1::t_11aeef2c3d3e7d 101,136,155,206,208,213,215,217,219
+  s_eb0fe53f618ee1::t_753eb49c507d4a 210-211
+  s_eb0fe53f618ee1::t_1146a35a0a1ac8 4
+  s_eb0fe53f618ee1::t_2b7150eb8f15fb 108-109
+tests/test_common.py
+  s_eb0fe53f618ee1::t_e0e1ff807defe1 1-31
+switchbot_api/common/models.py
+  s_eb0fe53f618ee1::t_e0e1ff807defe1 2-24
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "0c18afaff358824074297d7ff10653a3b881d58a",
+  "prompts": {},
+  "humans": {
+    "h_9a9cdace680315": {
+      "author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  },
+  "sessions": {
+    "s_eb0fe53f618ee1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ec62-9b0d-7030-950e-86dd131f3add",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  }
+}
