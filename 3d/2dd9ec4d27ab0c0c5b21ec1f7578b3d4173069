@@ -1,0 +1,54 @@
+switchbot_api/others/commands.py
+  s_eb0fe53f618ee1::t_f1e65a8fae7cc0 44
+  s_eb0fe53f618ee1::t_5a4563d083d16e 32
+switchbot_api/others/models.py
+  s_eb0fe53f618ee1::t_5a4563d083d16e 4-5,17-23,32
+tests/test_others.py
+  s_eb0fe53f618ee1::t_5a4563d083d16e 14-17,52-55
+  s_eb0fe53f618ee1::t_7c7b37c44a5a9e 40,213-221,239-242
+  s_eb0fe53f618ee1::t_2b87a18765ed8d 243-244
+tests/test_light.py
+  s_eb0fe53f618ee1::t_88069c7648f91c 57-59,193-195
+  s_eb0fe53f618ee1::t_b41daa9af2260d 110-111
+  s_eb0fe53f618ee1::t_fe149e2861f57c 29-38,43-44,49-56,60-109,112-126,130-135,138-140,142,145-150,154-156,178-183,192,196-197,215,221,225-232,235,237,241,247,269,271
+switchbot_api/light/utils.py
+  s_eb0fe53f618ee1::t_19f75ab1617fe9 1-121,125-173,177-207,212-226
+  s_eb0fe53f618ee1::t_88069c7648f91c 122-124,174-176,208-211
+switchbot_api/others/__init__.py
+  s_eb0fe53f618ee1::t_5a4563d083d16e 22-24,69-71
+  s_eb0fe53f618ee1::t_f1e65a8fae7cc0 62,121
+switchbot_api/light/commands.py
+  s_eb0fe53f618ee1::t_7c05ae17fcbc7c 20,33,35,48,50,80,84,97,115,119,132,136,151,155,185,189,202,206,215,234,238,257,259,261
+switchbot_api/light/models.py
+  s_eb0fe53f618ee1::t_19f75ab1617fe9 44-47
+switchbot_api/light/__init__.py
+  s_eb0fe53f618ee1::t_19f75ab1617fe9 1,39-50,85-94
+switchbot_api/others/utils.py
+  s_eb0fe53f618ee1::t_f1e65a8fae7cc0 116,126-130
+  s_eb0fe53f618ee1::t_f7c9414ee52822 131-133
+  s_eb0fe53f618ee1::t_1dc50c89846fc9 134
+switchbot_api/vacuum/utils.py
+  s_eb0fe53f618ee1::t_f1e65a8fae7cc0 74-76,87-88
+switchbot_api/vacuum/models.py
+  s_eb0fe53f618ee1::t_f1e65a8fae7cc0 73
+tests/test_vacuum.py
+  s_eb0fe53f618ee1::t_7c7b37c44a5a9e 93-105,113-121,366-368,373-374
+  s_eb0fe53f618ee1::t_88069c7648f91c 106-112,369-372
+  s_eb0fe53f618ee1::t_a2d1de7d392935 375
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "3d2dd9ec4d27ab0c0c5b21ec1f7578b3d4173069",
+  "prompts": {},
+  "sessions": {
+    "s_eb0fe53f618ee1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ec62-9b0d-7030-950e-86dd131f3add",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  }
+}
