@@ -1,0 +1,29 @@
+tests/test_light.py
+  s_eb0fe53f618ee1::t_d5f43704ad42ad 37-38,42,56,84-158,166-167,256,264,302,306-323,415
+  s_eb0fe53f618ee1::t_49a601d5e20971 168-191,326-328
+  s_eb0fe53f618ee1::t_a9ad890ac78d8e 192-193
+switchbot_api/light/utils.py
+  s_eb0fe53f618ee1::t_49a601d5e20971 101-103
+  s_eb0fe53f618ee1::t_7e63ac2f823f8a 64-65,67-71,98,104-117,126,137-142
+  s_eb0fe53f618ee1::t_88a625a188f913 99-100,143-144
+switchbot_api/light/commands.py
+  s_eb0fe53f618ee1::t_088d45866a02f6 20,33,35,48,50,80,84,97,115,132,136,151,155,172,185,189,234,238
+switchbot_api/light/__init__.py
+  s_eb0fe53f618ee1::t_7e63ac2f823f8a 47-48,52,95-96,100
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "123fa8d3f00b8e5944ec4e920546cfb611f13b96",
+  "prompts": {},
+  "sessions": {
+    "s_eb0fe53f618ee1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ec62-9b0d-7030-950e-86dd131f3add",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  }
+}
