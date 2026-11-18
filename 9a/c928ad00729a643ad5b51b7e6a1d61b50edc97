@@ -1,0 +1,26 @@
+switchbot_api/common/models.py
+  s_eb0fe53f618ee1::t_7e7019f881d93b 24,28
+tests/test_sensor.py
+  s_eb0fe53f618ee1::t_7e7019f881d93b 31-33,40,48-50,63-79
+  s_eb0fe53f618ee1::t_41c286c5989877 80-81
+switchbot_api/sensor/utils.py
+  s_eb0fe53f618ee1::t_7e7019f881d93b 16-18,26
+tests/test_common.py
+  s_eb0fe53f618ee1::t_7e7019f881d93b 61-63,77
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9ac928ad00729a643ad5b51b7e6a1d61b50edc97",
+  "prompts": {},
+  "sessions": {
+    "s_eb0fe53f618ee1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ec62-9b0d-7030-950e-86dd131f3add",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  }
+}
