@@ -1,0 +1,74 @@
+switchbot_api/lock/utils.py
+  s_eb0fe53f618ee1::t_43f2434cd32eeb 13-14
+switchbot_api/sensor/__init__.py
+  s_eb0fe53f618ee1::t_43f2434cd32eeb 3,17
+switchbot_api/light/commands.py
+  s_eb0fe53f618ee1::t_43f2434cd32eeb 8
+switchbot_api/others/commands.py
+  s_eb0fe53f618ee1::t_43f2434cd32eeb 10
+switchbot_api/sensor/utils.py
+  s_eb0fe53f618ee1::t_43f2434cd32eeb 8
+switchbot_api/switch/utils.py
+  s_eb0fe53f618ee1::t_43f2434cd32eeb 5
+  s_eb0fe53f618ee1::t_2023b483671af9 7-12
+switchbot_api/vacuum/utils.py
+  s_eb0fe53f618ee1::t_43f2434cd32eeb 8
+switchbot_api/curtain/__init__.py
+  s_eb0fe53f618ee1::t_43f2434cd32eeb 3,10,22
+switchbot_api/light/__init__.py
+  s_eb0fe53f618ee1::t_43f2434cd32eeb 3,19,39
+switchbot_api/curtain/commands.py
+  s_eb0fe53f618ee1::t_43f2434cd32eeb 8
+switchbot_api/switch/commands.py
+  s_eb0fe53f618ee1::t_43f2434cd32eeb 6
+switchbot_api/fan/commands.py
+  s_eb0fe53f618ee1::t_43f2434cd32eeb 8
+switchbot_api/lock/__init__.py
+  s_eb0fe53f618ee1::t_43f2434cd32eeb 3,19,46
+switchbot_api/curtain/utils.py
+  s_eb0fe53f618ee1::t_43f2434cd32eeb 4
+switchbot_api/lock/commands.py
+  s_eb0fe53f618ee1::t_43f2434cd32eeb 9
+switchbot_api/vacuum/__init__.py
+  s_eb0fe53f618ee1::t_43f2434cd32eeb 3,16,38
+switchbot_api/climate/commands.py
+  s_eb0fe53f618ee1::t_43f2434cd32eeb 8
+switchbot_api/switch/__init__.py
+  s_eb0fe53f618ee1::t_43f2434cd32eeb 3,15,32
+switchbot_api/vacuum/commands.py
+  s_eb0fe53f618ee1::t_43f2434cd32eeb 8
+switchbot_api/fan/__init__.py
+  s_eb0fe53f618ee1::t_43f2434cd32eeb 3,10,24
+switchbot_api/climate/__init__.py
+  s_eb0fe53f618ee1::t_43f2434cd32eeb 3,9,29
+switchbot_api/climate/utils.py
+  s_eb0fe53f618ee1::t_2023b483671af9 16
+  s_eb0fe53f618ee1::t_43f2434cd32eeb 8
+switchbot_api/fan/utils.py
+  s_eb0fe53f618ee1::t_43f2434cd32eeb 5,7
+switchbot_api/hub/__init__.py
+  s_eb0fe53f618ee1::t_43f2434cd32eeb 3
+switchbot_api/others/__init__.py
+  s_eb0fe53f618ee1::t_43f2434cd32eeb 3,19,54
+switchbot_api/others/utils.py
+  s_eb0fe53f618ee1::t_43f2434cd32eeb 9,11
+switchbot_api/light/utils.py
+  s_eb0fe53f618ee1::t_2023b483671af9 26-30
+  s_eb0fe53f618ee1::t_43f2434cd32eeb 10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "b92221a6f09a14db3249a32a4d756f231b150d7b",
+  "prompts": {},
+  "sessions": {
+    "s_eb0fe53f618ee1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ec62-9b0d-7030-950e-86dd131f3add",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  }
+}
