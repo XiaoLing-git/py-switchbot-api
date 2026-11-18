@@ -1,0 +1,43 @@
+tests/test_light.py
+  s_eb0fe53f618ee1::t_9c2f33cf0f7c94 46,266,289
+tests/test_others.py
+  s_eb0fe53f618ee1::t_9c2f33cf0f7c94 47,290,306
+tests/test_fan.py
+  s_eb0fe53f618ee1::t_9c2f33cf0f7c94 39,250,266
+tests/test_curtain.py
+  s_eb0fe53f618ee1::t_9c2f33cf0f7c94 29,159,178
+tests/test_climate.py
+  s_eb0fe53f618ee1::t_9c2f33cf0f7c94 37,295,311
+tests/__init__.py
+  s_eb0fe53f618ee1::t_9c2f33cf0f7c94 3-4,6-23
+tests/test_lock.py
+  s_eb0fe53f618ee1::t_9c2f33cf0f7c94 45,466,485
+tests/test_additional_commands.py
+  s_eb0fe53f618ee1::t_9c2f33cf0f7c94 46,136,152
+tests/test_client.py
+  s_eb0fe53f618ee1::t_9c2f33cf0f7c94 21,34,36,49
+tests/test_vacuum.py
+  s_eb0fe53f618ee1::t_9c2f33cf0f7c94 50,427,442
+tests/test_switch.py
+  s_eb0fe53f618ee1::t_9c2f33cf0f7c94 40,204,219
+tests/conftest.py
+  s_eb0fe53f618ee1::t_9c2f33cf0f7c94 4,12,33-38
+tests/test_camera.py
+  s_eb0fe53f618ee1::t_9c2f33cf0f7c94 19,34,51
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "26d507f4016ee53a52ac4fcdc33af3ebb73560bf",
+  "prompts": {},
+  "sessions": {
+    "s_eb0fe53f618ee1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ec62-9b0d-7030-950e-86dd131f3add",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  }
+}
