@@ -1,0 +1,24 @@
+switchbot_api/climate/models.py
+  s_eb0fe53f618ee1::t_f06e130c01d7c9 5-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "2e1f12aea1b63a171b5fc6f0daf8e29d324494da",
+  "prompts": {},
+  "humans": {
+    "h_9a9cdace680315": {
+      "author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  },
+  "sessions": {
+    "s_eb0fe53f618ee1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ec62-9b0d-7030-950e-86dd131f3add",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  }
+}
