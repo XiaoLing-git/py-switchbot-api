@@ -1,0 +1,72 @@
+switchbot_api/vacuum/commands.py
+  s_eb0fe53f618ee1::t_8f3e7bf5f003a3 18,26,36,44,57,68,79,89,98
+  s_eb0fe53f618ee1::t_a0fa22b7ce8b00 1-17,19-25,27-35,37-43,45-56,58-67,69-78,80-88,90-97,99-107
+switchbot_api/vacuum/utils.py
+  s_eb0fe53f618ee1::t_485f3d10b71dda 1-145
+switchbot_api/sensor/models.py
+  s_eb0fe53f618ee1::t_a0fa22b7ce8b00 1-47
+switchbot_api/switch/utils.py
+  s_eb0fe53f618ee1::t_8e218c532cf302 3-4
+  s_eb0fe53f618ee1::t_a0fa22b7ce8b00 1-2,5-59
+switchbot_api/sensor/commands.py
+  s_eb0fe53f618ee1::t_a0fa22b7ce8b00 1-7
+switchbot_api/others/models.py
+  s_eb0fe53f618ee1::t_318f0b8730d6c8 1-146
+switchbot_api/others/utils.py
+  s_eb0fe53f618ee1::t_318f0b8730d6c8 1-127
+switchbot_api/sensor/__init__.py
+  s_eb0fe53f618ee1::t_8f3e7bf5f003a3 2-33
+switchbot_api/others/commands.py
+  s_eb0fe53f618ee1::t_8f3e7bf5f003a3 20,28,35,44,55,61,70,82,93,106,120,138,149
+  s_eb0fe53f618ee1::t_318f0b8730d6c8 1-19,21-27,29-34,36-43,45-54,56-60,62-69,71-81,83-92,94-105,107-119,121-137,139-148,150-157
+tests/test_others.py
+  s_eb0fe53f618ee1::t_8fc2df661bdad1 1-90,94-95,105-111,116-121,129-130,138-140,146-169,173-209,257-291
+  s_eb0fe53f618ee1::t_73dad1d11eaf2f 91-93,96-104,112-115,122-128,131-137,141-145,170-172,210-256
+switchbot_api/common/__init__.py
+  s_eb0fe53f618ee1::t_485f3d10b71dda 9,19
+switchbot_api/sensor/utils.py
+  s_eb0fe53f618ee1::t_a0fa22b7ce8b00 1-33
+switchbot_api/others/__init__.py
+  s_eb0fe53f618ee1::t_8f3e7bf5f003a3 1-109
+switchbot_api/switch/__init__.py
+  s_eb0fe53f618ee1::t_8f3e7bf5f003a3 2-61
+switchbot_api/vacuum/models.py
+  s_eb0fe53f618ee1::t_a0fa22b7ce8b00 1-110
+tests/test_sensor.py
+  s_eb0fe53f618ee1::t_8e218c532cf302 1-2,5-75
+  s_eb0fe53f618ee1::t_193b9b8a768bb7 3-4
+tests/test_switch.py
+  s_eb0fe53f618ee1::t_8e218c532cf302 1-51,54-123,151-173
+  s_eb0fe53f618ee1::t_73dad1d11eaf2f 124-150,174-176
+  s_eb0fe53f618ee1::t_193b9b8a768bb7 52-53
+tests/test_common.py
+  s_eb0fe53f618ee1::t_8e218c532cf302 43-44
+tests/test_vacuum.py
+  s_eb0fe53f618ee1::t_19001625a9fda2 1-46,49-52,58-64,67-70,74-78,83-90,94-96,106-111,115-118,121-126,130-143,147-148,151-152,157-168,171-177,182-223,229-231,259,265-295
+  s_eb0fe53f618ee1::t_73dad1d11eaf2f 47-48,53-57,65-66,71-73,79-82,91-93,97-105,112-114,119-120,127-129,144-146,149-150,153-156,169-170,178-181,224-228,232-258,260-264
+switchbot_api/switch/commands.py
+  s_eb0fe53f618ee1::t_a0fa22b7ce8b00 1-14,16-21,23-28,30-37,39-44,46-54,56-62,64-72
+  s_eb0fe53f618ee1::t_8f3e7bf5f003a3 15,22,29,38,45,55,63
+switchbot_api/vacuum/__init__.py
+  s_eb0fe53f618ee1::t_8f3e7bf5f003a3 2-75
+switchbot_api/switch/models.py
+  s_eb0fe53f618ee1::t_a0fa22b7ce8b00 1-59
+switchbot_api/common/models.py
+  s_eb0fe53f618ee1::t_485f3d10b71dda 8-14,20,32-33
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "032abdbda845e67460276fe5e076d2821c168863",
+  "prompts": {},
+  "sessions": {
+    "s_eb0fe53f618ee1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ec62-9b0d-7030-950e-86dd131f3add",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  }
+}
