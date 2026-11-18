@@ -1,0 +1,51 @@
+switchbot_api/fan/commands.py
+  s_eb0fe53f618ee1::t_f744efe11b5a61 63
+switchbot_api/fan/utils.py
+  s_eb0fe53f618ee1::t_f744efe11b5a61 53,63
+  s_eb0fe53f618ee1::t_35f53c7da5b98b 94,102,104-111
+  s_eb0fe53f618ee1::t_cdbb3210489100 101
+  s_eb0fe53f618ee1::t_3826e9768e461d 5-6,10-14,16,18,22-37,60-62,64-90,95,99-100,103
+  s_eb0fe53f618ee1::t_5d0173c1b10ff5 96-98
+  s_eb0fe53f618ee1::t_5fb46663faaea7 91-93
+  s_2b7c84a092d1f9::t_af3f62b36a289c 38,112-113
+switchbot_api/fan/__init__.py
+  s_eb0fe53f618ee1::t_3826e9768e461d 26-27,29,32,60-61,63,66
+tests/test_fan.py
+  s_eb0fe53f618ee1::t_5fb46663faaea7 113-118,124-127,173,179-182,199-201
+  s_eb0fe53f618ee1::t_35f53c7da5b98b 174-178,187
+  s_eb0fe53f618ee1::t_f744efe11b5a61 95-96,98,122,128,137,142,149,267-271
+  s_eb0fe53f618ee1::t_5d0173c1b10ff5 11-13,16-17,27-29,32,107-112,119-121,123,129-136,138-141,143-148,150-172,183-186,188-198,202-203,250,256,275,281
+  s_eb0fe53f618ee1::t_d228c03a73232b 272
+switchbot_api/fan/models.py
+  s_eb0fe53f618ee1::t_3826e9768e461d 54-57,77-80
+  s_eb0fe53f618ee1::t_f744efe11b5a61 5-6,44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "48c039a180aeb6854611434b124c3fd62859fa0d",
+  "prompts": {},
+  "humans": {
+    "h_9a9cdace680315": {
+      "author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  },
+  "sessions": {
+    "s_2b7c84a092d1f9": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1a48d-e4da-7d83-a95b-3c5af09be82b",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    },
+    "s_eb0fe53f618ee1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ec62-9b0d-7030-950e-86dd131f3add",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  }
+}
