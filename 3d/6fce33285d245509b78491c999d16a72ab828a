@@ -1,0 +1,27 @@
+switchbot_api/vacuum/utils.py
+  s_eb0fe53f618ee1::t_d3c3a9b34b10c1 23-25
+  s_eb0fe53f618ee1::t_d2a0eb966a3409 12,26,91
+switchbot_api/vacuum/__init__.py
+  s_eb0fe53f618ee1::t_d2a0eb966a3409 19,52
+switchbot_api/vacuum/models.py
+  s_eb0fe53f618ee1::t_d2a0eb966a3409 16,30
+tests/test_vacuum.py
+  s_eb0fe53f618ee1::t_d2a0eb966a3409 14,98-111,113-114,218,387
+  s_eb0fe53f618ee1::t_d3c3a9b34b10c1 56-60,115
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "3d6fce33285d245509b78491c999d16a72ab828a",
+  "prompts": {},
+  "sessions": {
+    "s_eb0fe53f618ee1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ec62-9b0d-7030-950e-86dd131f3add",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  }
+}
