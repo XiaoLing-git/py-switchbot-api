@@ -1,0 +1,44 @@
+switchbot_api/vacuum/__init__.py
+  s_eb0fe53f618ee1::t_e50c58523a9368 1
+switchbot_api/lock/__init__.py
+  s_eb0fe53f618ee1::t_e50c58523a9368 1
+switchbot_api/switch/__init__.py
+  s_eb0fe53f618ee1::t_e50c58523a9368 1
+switchbot_api/curtain/__init__.py
+  s_eb0fe53f618ee1::t_e50c58523a9368 1
+switchbot_api/sensor/__init__.py
+  s_eb0fe53f618ee1::t_e50c58523a9368 1
+switchbot_api/camera/__init__.py
+  s_eb0fe53f618ee1::t_e50c58523a9368 1
+switchbot_api/others/__init__.py
+  s_eb0fe53f618ee1::t_e50c58523a9368 1
+switchbot_api/climate/__init__.py
+  s_eb0fe53f618ee1::t_e50c58523a9368 1
+switchbot_api/common/__init__.py
+  s_eb0fe53f618ee1::t_e50c58523a9368 1
+switchbot_api/hub/__init__.py
+  s_eb0fe53f618ee1::t_e50c58523a9368 1
+switchbot_api/light/__init__.py
+  s_eb0fe53f618ee1::t_e50c58523a9368 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "7eb7f868424f24a76fada948456daff5bddb45fc",
+  "prompts": {},
+  "humans": {
+    "h_9a9cdace680315": {
+      "author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  },
+  "sessions": {
+    "s_eb0fe53f618ee1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ec62-9b0d-7030-950e-86dd131f3add",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  }
+}
