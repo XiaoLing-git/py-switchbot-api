@@ -1,0 +1,32 @@
+switchbot_api/climate/utils.py
+  s_eb0fe53f618ee1::t_bb03b672900eec 36,46,50-52,55-58,77-78,82
+switchbot_api/climate/commands.py
+  s_eb0fe53f618ee1::t_bb03b672900eec 38,55
+switchbot_api/climate/models.py
+  s_eb0fe53f618ee1::t_3a9967579beaf7 66,85
+  s_eb0fe53f618ee1::t_bb03b672900eec 53-56,62-65,67-71,81-84
+tests/test_climate.py
+  s_eb0fe53f618ee1::t_1df67905fa4faf 76-78,86-96,99,103,152-159,215-217,220-221,278,294-299,316,330,332
+  s_eb0fe53f618ee1::t_f49cd186d73568 79-85
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d8fdc6381953d7d2cc72f57ebd5221d25b4605a5",
+  "prompts": {},
+  "humans": {
+    "h_9a9cdace680315": {
+      "author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  },
+  "sessions": {
+    "s_eb0fe53f618ee1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ec62-9b0d-7030-950e-86dd131f3add",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  }
+}
