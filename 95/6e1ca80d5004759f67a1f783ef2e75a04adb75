@@ -1,0 +1,14 @@
+pyproject.toml
+  h_9a9cdace680315 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "956e1ca80d5004759f67a1f783ef2e75a04adb75",
+  "prompts": {},
+  "humans": {
+    "h_9a9cdace680315": {
+      "author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  }
+}
