@@ -1,0 +1,14 @@
+switchbot_api/commands.py
+  h_9a9cdace680315 549
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "078abbfb3108d948b2823e38fe7399f375e7a7c3",
+  "prompts": {},
+  "humans": {
+    "h_9a9cdace680315": {
+      "author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  }
+}
