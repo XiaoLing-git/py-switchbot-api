@@ -1,0 +1,28 @@
+switchbot_api/vacuum/utils.py
+  s_eb0fe53f618ee1::t_d9663851b568e3 120
+switchbot_api/climate/utils.py
+  s_eb0fe53f618ee1::t_d9663851b568e3 38,40,44-49
+tests/test_vacuum.py
+  s_eb0fe53f618ee1::t_d9663851b568e3 142,160-167,173-183,187-192,198,200-210,274-277
+  s_eb0fe53f618ee1::t_2bd91e36b0231b 168-172,184-186,278
+tests/test_climate.py
+  s_eb0fe53f618ee1::t_d9663851b568e3 92,99-105,235-240
+switchbot_api/climate/commands.py
+  s_eb0fe53f618ee1::t_d9663851b568e3 25
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d0887a8556192e8ee8f33ef897e6a9053515acd1",
+  "prompts": {},
+  "sessions": {
+    "s_eb0fe53f618ee1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ec62-9b0d-7030-950e-86dd131f3add",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  }
+}
