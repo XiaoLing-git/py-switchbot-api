@@ -1,0 +1,49 @@
+tests/test_client.py
+  s_eb0fe53f618ee1::t_460abb2e0c1d30 5,14,24-48,54-58
+  s_eb0fe53f618ee1::t_d41846c5ae70ca 13,19-20,49-52
+  s_eb0fe53f618ee1::t_f30c71757c4b3b 53
+tests/test_common.py
+  s_eb0fe53f618ee1::t_460abb2e0c1d30 5-27
+switchbot_api/__init__.py
+  s_eb0fe53f618ee1::t_9d622de1d3932f 59,334,350-354
+tests/test_fan.py
+  s_eb0fe53f618ee1::t_3ef40f407b7486 165
+switchbot_api/commands.py
+  s_eb0fe53f618ee1::t_9d622de1d3932f 8-9,551
+tests/test_others.py
+  s_eb0fe53f618ee1::t_3ef40f407b7486 285
+tests/test_camera.py
+  s_eb0fe53f618ee1::t_3ef40f407b7486 51
+tests/test_climate.py
+  s_eb0fe53f618ee1::t_3ef40f407b7486 295
+switchbot_api/common/__init__.py
+  s_eb0fe53f618ee1::t_9d622de1d3932f 3
+tests/test_lock.py
+  s_eb0fe53f618ee1::t_3ef40f407b7486 433
+tests/test_vacuum.py
+  s_eb0fe53f618ee1::t_3ef40f407b7486 285
+tests/test_switch.py
+  s_eb0fe53f618ee1::t_3ef40f407b7486 171
+tests/test_curtain.py
+  s_eb0fe53f618ee1::t_3ef40f407b7486 180
+tests/test_light.py
+  s_eb0fe53f618ee1::t_3ef40f407b7486 174
+switchbot_api/common/commands.py
+  s_eb0fe53f618ee1::t_9d622de1d3932f 2-7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "1a7a81ca619b5da89ca2e2240d0271442591761a",
+  "prompts": {},
+  "sessions": {
+    "s_eb0fe53f618ee1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ec62-9b0d-7030-950e-86dd131f3add",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  }
+}
