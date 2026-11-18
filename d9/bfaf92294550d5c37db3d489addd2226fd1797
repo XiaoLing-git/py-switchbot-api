@@ -1,0 +1,23 @@
+tests/test_additional_commands.py
+  s_eb0fe53f618ee1::t_7e165516a85e46 1
+switchbot_api/light/utils.py
+  s_eb0fe53f618ee1::t_7e165516a85e46 31
+switchbot_api/light/commands.py
+  s_eb0fe53f618ee1::t_7e165516a85e46 20,33,48,240,265
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d9bfaf92294550d5c37db3d489addd2226fd1797",
+  "prompts": {},
+  "sessions": {
+    "s_eb0fe53f618ee1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ec62-9b0d-7030-950e-86dd131f3add",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  }
+}
